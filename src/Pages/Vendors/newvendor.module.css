@@ -1,0 +1,170 @@
+.newvenout{
+    height: 100dvh;
+    background: #F6F6F6;
+    padding: 2rem 4rem;
+}
+.vendorback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+}
+.vendxt{
+    font-size: 1.5625rem;
+    font-weight: 600;
+}
+.vendaddxt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.upaddxt{
+    color: #0C5D7E;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+.downaddxt{
+    font-size: 1.5625rem;
+    font-weight: 500;
+}
+.arrowback{
+    display: flex;
+    align-items: center;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+.arrow{
+    fill: rgba(0, 0, 0, 0.80);
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+}
+.back2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.getxt{
+    color: #777;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.venlink{
+    display: flex;
+    margin-top: 4rem    ;
+}
+.vendiv{
+    flex: 0.5;
+    padding-right: 5rem;
+}
+.venput{
+    outline: none;
+    border-radius: 0.625rem;
+    border: 1.5px solid rgba(163, 163, 163, 0.30);
+    width: 45rem;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.idxt{
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.anxt{
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.addputdiv{
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 2rem;
+}
+.addput{
+    outline: none;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 0.625rem;
+    border: 1.5px solid rgba(163, 163, 163, 0.30);
+    width: 45rem;
+    padding-bottom: 18rem;
+    padding-top: 2rem;
+}
+.sendcandiv{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.sendxt{
+    border-radius: 0.625rem;
+    background: #36AAD9;
+    padding: 1.3rem 0;
+    border: none;
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cancelxt{
+    border-radius: 0.625rem;
+    border: none;
+    padding: 1.3rem 0;
+    background: #FFF;
+    font-size: 1.125rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.invidiv{
+    flex: 0.5;
+    display: flex;
+    outline: none;
+    /* border: none; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 2px solid rgba(119, 119, 119, 0.20);
+}
+.invilinkxt{
+    display: flex;
+    padding: 4rem 8rem;
+    outline: none;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    color: #8C8C8C;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 1.25rem;
+    background: #FFF;
+    cursor: pointer;
+}
+.invidiv2 {
+    flex: 0.5;
+    display: flex;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 2px solid rgba(119, 119, 119, 0.20);;
+}
+ .invilinkxt2{
+    display: flex;
+    padding: 4rem 10rem;
+    outline: none;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    color: #0676A4;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 1.25rem;
+    background: rgba(54, 170, 217, 0.10);
+    cursor: pointer;
+    border: 0.5px solid rgba(54, 170, 217, 0.80);
+}

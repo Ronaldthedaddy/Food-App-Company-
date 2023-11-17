@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .sideNav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+.active{
+  background-color: yellow;
+}
+
+.side{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  padding: 10px 20px;
+} */

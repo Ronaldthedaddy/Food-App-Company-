@@ -1,0 +1,24 @@
+.filter-container {
+    background-color: white;
+}
+
+.item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .item.active {
+    border-radius: 0.3125rem;
+    
+    background: #36AAD9;
+    box-shadow: 0px 2.21413px 5.53533px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+  }

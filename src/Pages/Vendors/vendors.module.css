@@ -1,0 +1,197 @@
+.vendormain{
+    padding: 2rem;
+    background: #F6F6F6;
+    height: 100dvh;
+}
+.activext{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-right: 2rem;
+}  
+.aidiv{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ } 
+.inactivext{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.activeButton {
+    padding: 0 1rem 0.5rem 1rem;
+    color: #36AAD9;
+    border-bottom: 3px solid #36AAD9;
+} 
+.inactiveButton {
+    padding: 0 1rem 0.5rem 1rem;
+    color: rgba(119, 119, 119, 0.70);
+    border-bottom: 1px solid rgba(119, 119, 119, 0.70);
+}
+ .activext2, .inactivext2{
+    font-size: 0.875rem;
+    font-weight: 400;
+ }
+ .status{
+    display: flex;
+    align-items: center;
+    border-radius: 0.625rem;
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+}  
+.spanstatus{
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.activeStatus {
+    color: #078C1C;
+    background: rgba(7, 140, 28, 0.15);
+}
+.inactiveStatus {
+    color: #D04747;
+    background: rgba(208, 71, 71, 0.15);
+}
+.rhlhdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.add{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.nvdiv{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    gap: 0.3rem;
+    border-radius: 0.625rem;
+    background: #36AAD9;
+    padding: 0.8125rem 5.625rem;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center; */
+    /* width: 18.8125rem; */
+    /* height: 3.125rem; */
+}
+.lhdiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.iconputdiv{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    border: 1px solid #CCC;
+    backdrop-filter: blur(2px);
+}
+
+.inpdiv{
+    display: flex;
+    padding: 0 1rem;
+}
+.inp{
+    border: none;
+    outline: none;
+    width: 15rem;
+    background: #F6F6F6;
+    /* gap: 5rem; */
+}
+.tabledivin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 1.18281rem 1.18281rem 0rem 0rem;
+    background: #FAFAFA; 
+    margin-top: 2rem;
+}
+.tablemain{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tablerow{
+    border-radius: 1.18281rem 1.18281rem 0rem 0rem;
+    border: 1px solid #EAEAEA;
+    background: #FAFAFA;
+}
+td{
+    padding: 1.1rem 2rem;
+}
+.sortimg{
+    margin-top: 0.15rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.options{
+    /* margin-left: 1rem; */
+    margin-top: 1.5rem;
+    font-size: 1.18rem;
+    padding-right: 3.5rem;
+}
+.viewdiv{
+    position: relative;
+    right: 15%;
+    /* top: 53%; */
+    background: rgba(54, 170, 217, 0.15);
+    border-radius: 0.3125rem;
+    /* margin-right: 1rem; */
+    cursor: pointer;
+    width: fit-content;
+}
+.viewxt{
+    padding: 0.7rem;
+    color: #36AAD9;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.vendor{
+    width: 25%;
+}
+.vendorin{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.vcr{
+    display: flex;
+    gap: 1rem;
+    width: 35%;
+    align-items: center;
+}
+.customers{
+    font-size: 0.97rem;
+    font-weight: 500;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.30206rem;
+    background: rgba(208, 71, 71, 0.15);
+}
+.last{
+    width: 20%;
+}
+.statusdiv{
+    width: 15%;
+}
+
+
+  
+  

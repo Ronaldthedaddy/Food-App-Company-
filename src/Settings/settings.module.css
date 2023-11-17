@@ -1,0 +1,79 @@
+.mainset{
+    background: #F6F6F6;
+    padding: 2rem 3rem;
+    height: 100dvh;
+}
+.setxt{
+    font-size: 1.625rem;
+    font-weight: 600;
+}
+.pcxt{
+    margin-top: 0.5rem;
+    color: #777;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.midbody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 7rem 2rem;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+    /* justify-content: center; */
+}
+.venputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.idxt{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.venput{
+    outline: none;
+    width: 38rem;
+    padding: 1rem;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(163, 163, 163, 0.50);
+}
+.scdiv{
+    display: flex;
+    margin-top: 4rem;
+    gap: 1rem;
+    align-items: center;
+}
+.saxt{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    background: #36AAD9;
+    padding: 1rem ;
+    width: 18rem;
+}
+.caxt{
+    display: flex;
+    justify-content: center;
+    font-size: 1.375rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(163, 163, 163, 0.70);
+    background: #FFF;
+    padding: 1rem ;
+    width: 18rem;
+}

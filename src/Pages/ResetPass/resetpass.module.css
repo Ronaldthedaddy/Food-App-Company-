@@ -1,0 +1,123 @@
+.mainout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.tmlogo{
+    width: 30%;
+}
+.mainin{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.mainside{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column; 
+    width: 20vw;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(119, 119, 119, 0.30);
+}
+.resetxt{
+    color: #36AAD9;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+.enterxt{
+    color: #777;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.cmail1{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    margin-top: 3rem;
+}
+.cmail{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+}
+.cmailxt{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+.cputdiv{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+}
+.cmput{
+    border: none;
+    outline: none;
+}
+.cputdiv2{
+    display: flex;
+    gap: 2rem;
+    padding: 0.2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    justify-content: space-between;
+}
+.cloput{
+    padding: 0.8rem;
+    display: flex;
+    gap: 1rem;
+}
+.cmeye{
+    font-size: 19px;
+    background-color: #FFF;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.proceedxt{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background: #48A5CB;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-decoration: none;
+    width: 20vw;
+    border: none;
+}
+.backxt{
+    display: flex;
+    justify-content: center;
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.notxt{
+    display: flex;
+    gap: 0.5rem;
+    color: #777;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+.regxt{
+    color: #393939;
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,195 @@
+.mainstaff{
+    padding: 2rem;
+    background: #F6F6F6;
+    height: 100dvh;
+}
+.activext{
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-right: 2rem;
+}  
+.aidiv{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ } 
+.inactivext{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.activeButton {
+    padding: 0 1rem 0.5rem 1rem;
+    color: #36AAD9;
+    border-bottom: 3px solid #36AAD9;
+} 
+.inactiveButton {
+    padding: 0 1rem 0.5rem 1rem;
+    color: rgba(119, 119, 119, 0.70);
+    border-bottom: 1px solid rgba(119, 119, 119, 0.70);
+}
+ .activext2, .inactivext2{
+    font-size: 0.875rem;
+    font-weight: 400;
+ }
+ /* .status{
+    display: flex;
+    align-items: center;
+    border-radius: 0.625rem;
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+}   */
+/* .spanstatus{
+    font-size: 0.875rem;
+    font-weight: 400;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+} */
+.activeDiv {
+    color: #2185AE;
+    border: 1.4px solid #36AAD9;
+}
+.inactiveDiv {
+    color: #D04747;
+    border: 1.4px solid #D04747;
+    width: fit-content;
+}
+.totalin{
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    width: fit-content;
+    padding: 0.5rem 0.8rem;
+}
+.lastspan{
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.625rem;
+    border: none;
+}
+.rhlhdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.add{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.nvdiv{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    gap: 0.3rem;
+    border-radius: 0.625rem;
+    background: #36AAD9;
+    padding: 0.8125rem 5.625rem;
+    align-items: center;
+    cursor: pointer;
+    /* justify-content: center; */
+    /* width: 18.8125rem; */
+    /* height: 3.125rem; */
+}
+.lhdiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.iconputdiv{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    border: 1px solid #CCC;
+    backdrop-filter: blur(2px);
+}
+
+.inpdiv{
+    display: flex;
+    padding: 0 0.5rem;
+}
+.inp{
+    border: none;
+    outline: none;
+    width: 19rem;
+    background: #F6F6F6;
+    /* gap: 5rem; */
+}
+.tabledivin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    justify-content: center;
+    justify-content: space-between;
+    border-radius: 1.18281rem 1.18281rem 0rem 0rem;
+    background: #FAFAFA; 
+    margin-top: 2rem;
+}
+.tablemain{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tablerow{
+    border-radius: 1.18281rem 1.18281rem 0rem 0rem;
+    border: 1px solid #EAEAEA;
+    background: #FAFAFA;
+}
+td{
+    padding: 1.1rem 2rem;
+}
+.sortimg{
+    margin-top: 0.15rem;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.options{
+    /* margin-left: 1rem; */
+    margin-top: 1.5rem;
+    font-size: 1.18rem;
+    padding-right: 3.5rem;
+}
+.viewdiv{
+    position: relative;
+    right: 15%;
+    top: 0.5rem;
+    background: rgba(54, 170, 217, 0.15);
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    width: fit-content;
+}
+.viewxt{
+    padding: 0.7rem;
+    color: #36AAD9;
+    font-size: 1.125rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.staffid{
+    width: 18%;
+}
+.staffname{
+    width: 22%;
+}
+.staff{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.date{
+    width: 25%;
+}
+.total{
+    width: 20%;
+}
+.last{
+    width: 20%;
+}

@@ -1,0 +1,95 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    /* width: 18rem; */
+    /* height: 100vh; */
+    margin-left: 1rem;
+    background: #FFF;
+    border-right: 2px solid rgba(0, 0, 0, 0.10) ;
+}
+.tmlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.tmlogo2{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.sidelinks{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 1rem;
+    font-weight: 500;
+    /* width: 13rem; */
+    align-items: center;
+    padding: 1rem 2rem;
+    /* justify-content: center; */
+}
+
+
+.allside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+.sidelinks{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+.dash{
+    display: flex;
+    align-items: center;
+}
+.stett{
+    display: flex;
+    flex-direction: column;
+}
+.sidelinks2{
+    display: flex;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 1rem;
+    font-weight: 500;
+    width: 13rem;
+    align-items: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid rgba(163, 163, 163, 0.30); 
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.sidelogo{
+    color: #FFF;
+}
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+}
+
+.active{
+    display: flex;
+    color: white;
+    background-color: #36AAD9;
+    border-radius: 10px;
+}
+
+.side{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+  

@@ -1,0 +1,11 @@
+.layout{
+    display: flex;
+    height: 100dvh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}  
+.children{
+    overflow-y: scroll;
+}

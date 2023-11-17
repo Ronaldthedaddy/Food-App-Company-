@@ -1,0 +1,113 @@
+.catmain{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.allcatout{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.allcat{
+    display: flex;
+    align-items: center;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 1rem;
+    width: 46.5%;
+}
+.allcatin{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.imacon{
+    width: 7.5rem;
+}
+.cateright{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+.iodout{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.icoder{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    color: #0676A4;
+    font-size: 0.9415rem;
+    font-weight: 500;
+    border-radius: 0.27606rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.crout{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.starate{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    gap: 0.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.namecat{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.total{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.rating{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: 0 4rem;
+    align-items: center;
+    border: none;
+}
+.pageout{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1.75588rem;
+    padding: 0.5rem 1rem;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.20) ;
+    
+}
+.pages{
+    color: #36AAD9;
+    background: #FFF;
+    /* border-radius: 1.75588rem; */
+    /* background: #36AAD9; */
+    border: none ;
+    display: flex;
+    width: fit-content;
+    padding: 0.6rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.aicon{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    padding: 0.5rem;
+    border: none;
+    font-size: 2rem;
+    justify-content: center;
+    border-radius: 50%;
+    background: #36AAD9;
+}

@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    padding: 1rem ;
+    align-items: center;
+    box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.10);
+    width: calc(94.51vw - 200px);
+    justify-content: space-between;
+}
+.navleft{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 5rem;
+}
+.tmxt{
+    font-size: 1rem;
+    font-weight: 700;
+ }
+ .tmblue{
+    width: 120%;
+ }
+.helxt{
+    font-size: 1.05rem;
+    font-weight: 499;
+}
+.xtwave{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.helave{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.wavepic{
+    margin-top: 0.3rem;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+    gap: 2rem;
+}
+.dotog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.625rem;
+    border: 1px solid rgba(119, 119, 119, 0.25);
+    width: 10.5rem;
+    height: 4.5rem;
+    padding: 0.4375rem 0.6875rem 0.4375rem 0.8125rem;
+}
+.toggleon{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.toggleoff{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    gap: 2rem;
+    color: grey;
+}
+.dot{
+    margin-top: 0.2rem;
+}
+.dotus{
+    display: flex;
+    /* color: #078C1C; */
+    align-items: center;
+    gap: 0.5rem;
+}
+.opendiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.closediv{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+.openxt{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #078C1C;
+}
+.closedxt{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #B0BEC5;
+}
+.compxt{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.grope{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.onbtn{
+    margin-top: 0.2rem;
+    margin-left: 1.5rem;
+}

@@ -1,0 +1,256 @@
+.staffdeetmain{
+    background: #F6F6F6;
+    height: 100dvh;
+    padding: 1rem 3rem;
+}
+.vendorback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+}
+.vendxt{
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.vendaddxt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.upaddxt{
+    color: #0C5D7E;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+.mamaxt{
+    font-size: 1.6875rem;
+    font-weight: 400;
+}
+.arrowback{
+    display: flex;
+    align-items: center;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+.arrow{
+    fill: rgba(0, 0, 0, 0.80);
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+}
+.back2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.flexmain{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.leftflex{
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.25rem;
+    background: #FFF;
+    padding: 2rem 1rem;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+}
+.rightflex{
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    gap: 1rem;
+}
+.aprodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0 3rem 1rem 3rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);;
+}
+.adext{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.prodxt{
+    color: #0676A4;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding:  0.8rem 1rem;
+    border-radius: 0.625rem;
+    background: rgba(54, 170, 217, 0.15);
+    width: 10rem;
+}
+.vecnum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0676A4;
+    font-size: 1.125rem;
+    font-weight: 500;
+    width: 10rem;
+    padding:  0.8rem 1rem;
+    border-radius: 0.3125rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.numaildiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.numxt, .emailxt{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.rf1{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+}
+.rf2{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    padding: 1rem;
+    border-radius: 1.25rem;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+}
+.mapout{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.mapin{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.mapmid{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.niodiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.fdqdiv{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.recxt{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.name{
+    color: #36AAD9;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.iospan{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.27775rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.orders{
+    color: #0676A4;
+    font-size: 0.94738rem;
+    font-weight: 500;
+}
+.food{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.details{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.quantity{
+    color: #777;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.date{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.price{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.cusdiv{
+    display: flex;
+    padding: 0 1rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+.topdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.downdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.adespan{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.toggle{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.cusxt{
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+.activext{
+    color: #078C1C;
+    font-size: 1.12719rem;
+    font-weight: 400;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    background: rgba(7, 140, 28, 0.15);
+}
+.adext2{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+.inactivext{
+    color: #D04747;
+    background: rgba(208, 71, 71, 0.15);
+    font-size: 1.12719rem;
+    font-weight: 400;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+}

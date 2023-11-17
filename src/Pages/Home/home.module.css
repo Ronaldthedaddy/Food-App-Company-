@@ -1,0 +1,120 @@
+.comain{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+.porlotaff{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    /* background: #FFF; */
+}
+.portolin{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column; 
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(119, 119, 119, 0.30);
+}
+.ctmlogmg{
+    width: 40%;
+}
+.comptext{
+    color: #404040;
+    font-size: 24px;
+    font-weight: 700;
+}
+.mystaxt{
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.comepwrd{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.cmail{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+}
+.cmailxt{
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+.cputdiv{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+}
+.cmput{
+    border: none;
+    outline: none;
+}
+.cputdiv2{
+    display: flex;
+    gap: 2rem;
+    padding: 0.2rem;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+    justify-content: space-between;
+}
+.cloput{
+    padding: 0.8rem;
+    display: flex;
+    gap: 1rem;
+}
+.cmeye{
+    font-size: 19px;
+    background-color: #FFF;
+    color: grey;
+    outline: none;
+    border: none;
+}
+.clogxt{
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: none;  
+    color: #FFF;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    background: #48A5CB;
+    margin-bottom: 0.5rem;
+}
+.cfgtxt{
+    color: #777;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.cnotregxt{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.cntregxt{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+}
+.cregxt{
+    color: #393939;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+}

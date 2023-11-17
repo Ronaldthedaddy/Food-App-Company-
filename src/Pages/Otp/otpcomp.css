@@ -1,0 +1,77 @@
+/* const Container = styled.section`
+  background: #48a5cb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500; */
+  .tmlogotp{
+    width: 25%;
+    margin-top: 2rem;
+  }
+  .otp { 
+    gap: 1rem;
+    margin: 2rem 0 8rem 0;
+  }
+  .otp input {
+    text-align: center;
+    margin-right: 20px;
+    outline: none;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 0.5rem;
+    border-radius: 0.17394rem;
+    border: 1.094px solid #36AAD9;
+    
+  }
+  .logscont {
+    border: 1px solid rgba(119, 119, 119, 0.30);
+    /* border-radius: 1.25rem; */
+    background: #FFF;
+    border-radius: 1rem;
+    /* padding: 1rem; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vendor-portal {
+    margin-bottom: 4rem;
+    color: #36AAD9;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  .link {
+    padding-top: 1rem;
+    width: 100%;
+  }
+  .forgot {
+    color: #777;
+    padding-block: 1rem;
+    cursor: pointer;
+  }
+  .procidiv{
+    border-radius: 10px;
+    background: #48A5CB;
+    padding: 1rem 0;
+    border: none;
+    margin: 1rem 0;
+   text-decoration: none;
+   width: 20vw;
+  /* margin-top: 3rem;  */
+}
+.proceedxt{
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.backxt{
+  color: #777;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 3rem;
+}

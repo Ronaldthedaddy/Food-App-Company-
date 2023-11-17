@@ -1,0 +1,67 @@
+.mainout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.tmlogo{
+    width: 35%;
+}
+.mainin{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.mainside{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column; 
+    width: 20vw;
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(119, 119, 119, 0.30);
+}
+.enterxt{
+    margin-bottom: 4rem;
+    color: #36AAD9;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 2rem;
+
+}
+.procidiv{
+    border-radius: 10px;
+    /* background: #48A5CB; */
+    padding: 1rem 0;
+    margin-top: 1rem;
+    text-decoration: none;
+    width: 20vw;
+
+}
+.proceedxt{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.backxt{
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.notxt{
+    display: flex;
+    gap: 0.5rem;
+    color: #777;
+    margin-top: 3rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+.regxt{
+    color: #393939;
+    font-size: 18px;
+    font-weight: 500;
+}

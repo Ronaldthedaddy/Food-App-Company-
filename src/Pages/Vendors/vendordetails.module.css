@@ -1,0 +1,369 @@
+.vendormain{
+    background: #F6F6F6;
+    height: fit-content;
+    padding: 2rem 4rem;
+}
+.vendorback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+}
+.vendxt{
+    font-size: 1.5625rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.vendaddxt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.upaddxt{
+    color: #0C5D7E;
+    font-size: 1.5625rem;
+    font-weight: 400;
+}
+.mamaxt{
+    font-size: 1.5625rem;
+    font-weight: 500;
+    margin-bottom: 1rem
+}
+.arrowback{
+    display: flex;
+    align-items: center;
+    border-radius: 0.3125rem;
+    background: #FFF;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+}
+.arrow{
+    fill: rgba(0, 0, 0, 0.80);
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+}
+.back2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.vendeetsflex{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.vendflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.8;
+    padding: 2rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+}
+.mastydiv{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);;
+}
+.mjbxt{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.tastyxt{
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.625rem;
+    background: linear-gradient(116deg, #6BCDF5 27.93%, rgba(110, 165, 188, 0.00) 107.38%);
+}
+.fourxt{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.vectorxt{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #0676A4;
+    font-size: 1.10888rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 0.3125rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.foodmenu{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.menuout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+    /* width: fit-content; */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.menulist{
+    border-radius: 0.625rem;
+    background: rgba(54, 170, 217, 0.15);
+    color: #004A68;
+    padding: 0.7rem 0.6rem;;
+    font-size: 1.05rem;
+    font-weight: 400;
+}
+.costxt{
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.platext{
+    color: #777;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.offerdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.offerxt{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.offerdiv li{
+    color: #777;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.deetsflex{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+}
+.deetsin{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bukkaxt{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.ventive{
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+} 
+.vendshop{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.3125rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.vend2xt{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.activext{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #078C1C;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border-radius: 0.3125rem;
+    background: rgba(7, 140, 28, 0.15);
+}
+.inactivext{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #D04747;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    border-radius: 0.3125rem;
+    background: rgba(208, 71, 71, 0.15);
+}
+.phonediv{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.emaildiv{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.routdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.rindiv{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.raxt{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.fxt{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.3125rem;
+    border: 1px solid rgba(54, 170, 217, 0.60);
+}
+.vectordiv{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #004A68;
+    font-size: 0.9415rem;
+    font-weight: 500;
+    border-radius: 0.27606rem;
+    padding: 0.25rem 0.5rem;
+    background: rgba(54, 170, 217, 0.15);
+}
+.propdiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.20);
+}
+.propxt{
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.vactiveout{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.vactivein{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.vstatxt{
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.statxt{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #078C1C;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    font-weight: 500;
+    border-radius: 0.36231rem;
+    background: rgba(7, 140, 28, 0.15);
+}
+.statxt2{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #D04747;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    font-weight: 500;
+    border-radius: 0.36231rem;
+    background: rgba(251, 43, 58, 0.15);
+}
+.tog{
+    margin-top: 0.3rem;
+}
+.midbody{
+    border-radius: 1.25rem;
+    box-shadow: 3px 2px 6px -2px rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    height: 80dvh;
+}
+.vencat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bukkasumxt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.bukkamenu{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.isumxt{
+    color: #777;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.alist{
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    /* justify-content: space-between; */
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.catlist{
+    padding: 0 0.2rem 0.3rem 0.2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgba(119, 119, 119, 0.70);
+}

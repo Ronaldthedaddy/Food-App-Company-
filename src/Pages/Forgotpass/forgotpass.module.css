@@ -1,0 +1,97 @@
+.mainout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.tmlogo{
+    width: 35%;
+}
+.mainin{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+.mainside{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column; 
+    width: 20vw;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(119, 119, 119, 0.30);
+}
+.forgotxt{
+    color: #404040;
+    font-size: 22px;
+    font-weight: 700;
+}
+.enterxt{
+    color: #919191;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 19vw;
+    margin-top: 2rem;
+}
+.emailxt{
+    color: rgba(0, 0, 0, 0.50);
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+.cputdiv{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid rgba(58, 58, 58, 0.30);
+}
+.cmput{
+    border: none;
+    outline: none;
+    width: 14vw;
+}
+.proceedxt{
+    margin-top: 6rem;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    color: #FFF;
+    border: none;
+    padding: 1rem;
+    width: 20vw;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #48A5CB;
+}
+.backxt{
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+.yetxt{
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex ;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 0.5rem;
+}
+.regtext{
+    color: #393939;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
