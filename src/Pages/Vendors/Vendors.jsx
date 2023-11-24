@@ -45,99 +45,99 @@ const Vendors = () => {
     { name: "Status" },
   ];
 
-  // const Content = [
-  //   {
-  //     image: smamaj,
-  //     vendor: "Mama J Bukka",
-  //     value: 80,
-  //     customers: 298,
-  //     ratingByOrder: "7%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
+  const Content = [
+    {
+      image: smamaj,
+      vendor: "Mama J Bukka",
+      value: 80,
+      customers: 298,
+      ratingByOrder: "7%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
 
-  //   {
-  //     image: schoice,
-  //     vendor: "Choice Meal",
-  //     value: 20,
-  //     customers: 183,
-  //     ratingByOrder: "4%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: skobe,
-  //     vendor: "Kobe Delicious",
-  //     value: 50,
-  //     customers: 241,
-  //     ratingByOrder: "15%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: sgidi,
-  //     vendor: "Gidi Grillz",
-  //     value: 82,
-  //     customers: 302,
-  //     ratingByOrder: "8%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: schoice,
-  //     vendor: "Choice Meal",
-  //     value: 40,
-  //     customers: 328,
-  //     ratingByOrder: "7%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: stko,
-  //     vendor: "TKO",
-  //     value: 10,
-  //     customers: 218,
-  //     ratingByOrder: "9%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: skobe,
-  //     vendor: "Kobe Delicious",
-  //     value: 27,
-  //     customers: 328,
-  //     ratingByOrder: "7%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: schoice,
-  //     vendor: "Choice Meal",
-  //     value: 69,
-  //     customers: 198,
-  //     ratingByOrder: "2%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: stko,
-  //     vendor: "TKO",
-  //     value: 30,
-  //     customers: 152,
-  //     ratingByOrder: "7%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  //   {
-  //     image: stko,
-  //     vendor: "TKO",
-  //     value: 50,
-  //     customers: 192,
-  //     ratingByOrder: "7%",
-  //     lastAssessed: "13th July, 2023",
-  //     status: "Active",
-  //   },
-  // ];
+    {
+      image: schoice,
+      vendor: "Choice Meal",
+      value: 20,
+      customers: 183,
+      ratingByOrder: "4%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: skobe,
+      vendor: "Kobe Delicious",
+      value: 50,
+      customers: 241,
+      ratingByOrder: "15%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: sgidi,
+      vendor: "Gidi Grillz",
+      value: 82,
+      customers: 302,
+      ratingByOrder: "8%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: schoice,
+      vendor: "Choice Meal",
+      value: 40,
+      customers: 328,
+      ratingByOrder: "7%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: stko,
+      vendor: "TKO",
+      value: 10,
+      customers: 218,
+      ratingByOrder: "9%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: skobe,
+      vendor: "Kobe Delicious",
+      value: 27,
+      customers: 328,
+      ratingByOrder: "7%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: schoice,
+      vendor: "Choice Meal",
+      value: 69,
+      customers: 198,
+      ratingByOrder: "2%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: stko,
+      vendor: "TKO",
+      value: 30,
+      customers: 152,
+      ratingByOrder: "7%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+    {
+      image: stko,
+      vendor: "TKO",
+      value: 50,
+      customers: 192,
+      ratingByOrder: "7%",
+      lastAssessed: "13th July, 2023",
+      status: "Active",
+    },
+  ];
 
   const [isActive, setIsActive] = useState(true); // Default status is active
 
@@ -149,40 +149,40 @@ const Vendors = () => {
     setIsActive(false);
   };
 
-useEffect(() => {
-  let myHeaders = new Headers();
-  myHeaders.append(
-    "Authorization",
-    "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb29kYXBwQGdtYWlsLmNvbSIsImlhdCI6MTcwMDA1MDM1OSwiZXhwIjoxNzAwMTM2NzU5fQ.5NAFGvInBFAA1NBK-SEUBdgqIWBXVOHGedtwEmmZmGU"
-  );
+// useEffect(() => {
+//   let myHeaders = new Headers();
+//   myHeaders.append(
+//     "Authorization",
+//     "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb29kYXBwQGdtYWlsLmNvbSIsImlhdCI6MTcwMDA1MDM1OSwiZXhwIjoxNzAwMTM2NzU5fQ.5NAFGvInBFAA1NBK-SEUBdgqIWBXVOHGedtwEmmZmGU"
+//   );
 
-  let requestOptions = {
-    method: "GET",
-    headers: myHeaders,
-    redirect: "follow",
-  };
+//   let requestOptions = {
+//     method: "GET",
+//     headers: myHeaders,
+//     redirect: "follow",
+//   };
 
-  fetch("http://89.38.135.41:7654/api/company/all-vendors", requestOptions)
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.json();
-    })
-    .then((result) => {
-      setData(result.data);
-      // console.log(result);
-    })
-    .catch((error) => {
-      console.error("Error fetching data:", error);
-      if (
-        error instanceof TypeError &&
-        error.message.includes("Failed to fetch")
-      ) {
-        console.error("Network error. Check your internet connection.");
-      }
-    });
-}, [])
+//   fetch("http://89.38.135.41:7654/api/company/all-vendors", requestOptions)
+//     .then((response) => {
+//       if (!response.ok) {
+//         throw new Error(`HTTP error! Status: ${response.status}`);
+//       }
+//       return response.json();
+//     })
+//     .then((result) => {
+//       setData(result.data);
+//       // console.log(result);
+//     })
+//     .catch((error) => {
+//       console.error("Error fetching data:", error);
+//       if (
+//         error instanceof TypeError &&
+//         error.message.includes("Failed to fetch")
+//       ) {
+//         console.error("Network error. Check your internet connection.");
+//       }
+//     });
+// }, [])
 
   return (
     <main className={Styles.vendormain}>
@@ -243,7 +243,7 @@ useEffect(() => {
             );
           })}
 
-          {data.map((c, i) => {
+          {Content.map((c, i) => {
             // console.log(c);
             return (
               <tbody>
@@ -258,34 +258,34 @@ useEffect(() => {
                   <td className={Styles.vendor}>
                     <span className={Styles.vendorin}>
                       <img src={c.image} alt="" />
-                      {/* {c.vendor} */}
-                      {c.businessName}
+                      {c.vendor}
+                      {/* {c.businessName} */}
                     </span>
                   </td>
 
                   <td className={Styles.vcr}>
                     <span className={Styles.value}>
                       <progress
-                        // className="progs"
-                        value={c.averageRating || '70'}
+                        value={c.value }
+                        // value={c.averageRating || '70'}
                         max={100}
                       ></progress>
-                      <span>{c.averageRating || '70%' }</span>
+                      {/* <span>{c.averageRating || '70%' }</span> */}
                     </span>
                     <span className={Styles.customers}>
-                      {c.totalRatings}
-                      {/* {c.customers}  */}
+                      {/* {c.totalRatings} */}
+                      {c.customers} 
                     </span>
                     <span className={Styles.rating}>
                       <BsArrowUpShort />
-                      {c.averageRating}
-                      {/* {c.ratingByOrder} */}
+                      {/* {c.averageRating} */}
+                      {c.ratingByOrder}
                     </span>
                   </td>
 
                   <td className={Styles.last}>
-                    {c.lastAccessed ? c.lastAccessed.slice(0,10) : "__"}
-                    {/* {c.lastAssessed} */}
+                    {/* {c.lastAccessed ? c.lastAccessed.slice(0,10) : "__"} */}
+                    {c.lastAssessed}
                   </td>
 
                   <td className={Styles.statusdiv}>
