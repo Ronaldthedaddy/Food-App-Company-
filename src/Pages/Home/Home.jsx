@@ -22,56 +22,56 @@ const Home = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
-  const handleLogin = async (e) =>{
-    e.preventDefault();
-    setLoading(true);
+  // const handleLogin = async (e) =>{
+  //   e.preventDefault();
+  //   setLoading(true);
 
-    try {
-      const response = await fetch(
-        "http://89.38.135.41:7654/api/auth/authenticate", 
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            email: email,
-            password:password 
-          }),
-        }
-      );
-      //foodapp6@gmail.com
-      //pass1
+  //   try {
+  //     const response = await fetch(
+  //       "http://89.38.135.41:7654/api/auth/authenticate", 
+  //       {
+  //         method: "POST",
+  //         headers: { "Content-Type": "application/json" },
+  //         body: JSON.stringify({
+  //           email: email,
+  //           password:password 
+  //         }),
+  //       }
+  //     );
+  //     //foodapp6@gmail.com
+  //     //pass1
 
-      const data = await response.json();
-      localStorage.setItem('userDetails', JSON.stringify(data));
+  //     const data = await response.json();
+  //     localStorage.setItem('userDetails', JSON.stringify(data));
       
-      let D = JSON.parse(localStorage.getItem('userDetails'))
+  //     let D = JSON.parse(localStorage.getItem('userDetails'))
 
-      console.log(D.data);
-      // let e = D.data
-      // console.log(e);
-      if (email===data.data.email && password===data.data.password && data.status===true){
-        navigate("/dashboard")
-      }
-      else if
-      (email !== data.data.email && password !==data.data.password)
-      {
-        alert ("Incorrect Details Provided")
-      }
+  //     console.log(D.data);
+  //     // let e = D.data
+  //     // console.log(e);
+  //     if (email===data.data.email && password===data.data.password && data.status===true){
+  //       navigate("/dashboard")
+  //     }
+  //     else if
+  //     (email !== data.data.email && password !==data.data.password)
+  //     {
+  //       alert ("Incorrect Details Provided")
+  //     }
       
 
-      if (data.status) {
-        setLoading(false);
+  //     if (data.status) {
+  //       setLoading(false);
         
-        // If data.status is true, redirect to '/dashboard'
-        navigate("/dashboard");
-      } else {
-        setLoading(false);
-        // Handle the case where data.status is false or not present
-      }
-    } catch (error) {
-      setLoading(false);
-    }
-  };
+  //       // If data.status is true, redirect to '/dashboard'
+  //       navigate("/dashboard");
+  //     } else {
+  //       setLoading(false);
+  //       // Handle the case where data.status is false or not present
+  //     }
+  //   } catch (error) {
+  //     setLoading(false);
+  //   }
+  // };
   
   return (
     <main className={Styles.comain}>
@@ -121,7 +121,8 @@ const Home = () => {
         </div>
         
             <button
-            onClick={handleLogin}  
+            // onClick={handleLogin}
+            onClick={() => navigate("/dashboard")}  
             className={Styles.clogxt}>Log in
             </button>
         
