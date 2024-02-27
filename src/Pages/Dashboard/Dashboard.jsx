@@ -223,7 +223,10 @@ const Dashboard = () => {
 
               <div className={Styles.stumxt}>
                 <div className={Styles.svpxt}>Staff</div>
-                <div className={Styles.numxt}>{data.numberOfStaff}</div>
+                <div className={Styles.numxt}>
+                  46
+                  {/* {data.numberOfStaff} */}
+                  </div>
               </div>
             </div>
 
@@ -248,8 +251,10 @@ const Dashboard = () => {
 
               <div className={Styles.stumxt}>
                 <div className={Styles.svpxt}>Vendor</div>
-                <div className={Styles.numxt}>{data.numberOfVendors}
-</div>
+                <div className={Styles.numxt}>
+                  83
+                  {/* {data.numberOfVendors} */}
+                  </div>
               </div>
             </div>
 
@@ -275,7 +280,10 @@ const Dashboard = () => {
               <div className={Styles.stumxt}>
                 <div className={Styles.svpxt}>Payment</div>
        
-                <div className={Styles.numxt}>&#8358; {data.totalAmountSpent}</div>
+                <div className={Styles.numxt}>  
+                78,000
+                {data.totalAmountSpent}
+                </div>
               </div>
             </div>
 

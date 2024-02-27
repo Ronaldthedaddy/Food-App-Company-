@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Style from "./newstaff.module.css";
 import {IoIosArrowRoundBack} from "react-icons/io"
 import { useNavigate } from 'react-router-dom';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 
 
 const Newstaff = () => {
@@ -35,7 +35,7 @@ const navigate = useNavigate()
           setShowAddAnother(false);
         };
   const [loading, setLoading] = useState("");
-  const [userEmail, setUserEmail] = useState();
+  // const [userEmail, setUserEmail] = useState();
   
         const handleInvite = async (e) =>{
           e.preventDefault();
@@ -46,36 +46,36 @@ const navigate = useNavigate()
           //   "Authorization",
           //   "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb29kYXBwQGdtYWlsLmNvbSIsImlhdCI6MTcwMDA1MDM1OSwiZXhwIjoxNzAwMTM2NzU5fQ.5NAFGvInBFAA1NBK-SEUBdgqIWBXVOHGedtwEmmZmGU"
           // );
-        
 
-          try {
-            const response = await fetch(
-              "http://89.38.135.41:7654/api/company/invite-staff", 
-              {
-                method: "POST",
-                headers: {    "Authorization":
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb29kYXBwQGdtYWlsLmNvbSIsImlhdCI6MTcwMDA1MDM1OSwiZXhwIjoxNzAwMTM2NzU5fQ.5NAFGvInBFAA1NBK-SEUBdgqIWBXVOHGedtwEmmZmGU"
-               },
-                body: JSON.stringify({
-                  userEmail: userEmail,
-                }),
-              }
-            );
+          // try {
+          //   const response = await fetch(
+          //     "http://89.38.135.41:7654/api/company/invite-staff", 
+          //     {
+          //       method: "POST",
+          //       headers: {    "Authorization":
+          //       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJmb29kYXBwQGdtYWlsLmNvbSIsImlhdCI6MTcwMDA1MDM1OSwiZXhwIjoxNzAwMTM2NzU5fQ.5NAFGvInBFAA1NBK-SEUBdgqIWBXVOHGedtwEmmZmGU"
+          //      },
+          //       body: JSON.stringify({
+          //         userEmail: userEmail,
+          //       }),
+          //     }
+          //   );
       
-            const data = await response.json();
+          //   const data = await response.json();
       
-            if (data.status) {
-              setLoading(false);
+          //   if (data.status) {
+          //     setLoading(false);
               
-              // If data.status is true, redirect to '/dashboard'
-              // navigate("/dashboard");
-            } else {
-              setLoading(false);
-              // Handle the case where data.status is false or not present
-            }
-          } catch (error) {
-            setLoading(false);
-          }
+          //     // If data.status is true, redirect to '/dashboard'
+          //     // navigate("/dashboard");
+          //   } else {
+          //     setLoading(false);
+          //     // Handle the case where data.status is false or not present
+          //   }
+          // } catch (error) {
+          //   setLoading(false);
+          // }
+
         };
 
   return (
@@ -142,7 +142,10 @@ const navigate = useNavigate()
 
 
           <div className={Style.sendcandiv}>
-            <button onClick={handleInvite} className={Style.sendxt}>Save & Generate Invite link</button>
+            <button onClick={handleSendClick} className={Style.sendxt}>
+              Save & Generate Invite link
+            </button>
+            
                  {isAvailable && showAddAnother && (
                <div className={Style.addcandiv} onClick={handleAddAnotherClick}>
                 <div className={Style.diaddxt}>Add Another</div>
